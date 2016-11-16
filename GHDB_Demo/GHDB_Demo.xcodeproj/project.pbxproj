@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD11E6171DDC2C120010DCEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E6161DDC2C120010DCEA /* main.m */; };
+		FD11E61A1DDC2C120010DCEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E6191DDC2C120010DCEA /* AppDelegate.m */; };
+		FD11E61D1DDC2C120010DCEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E61C1DDC2C120010DCEA /* ViewController.m */; };
+		FD11E6201DDC2C120010DCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11E61E1DDC2C120010DCEA /* Main.storyboard */; };
+		FD11E6221DDC2C120010DCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD11E6211DDC2C120010DCEA /* Assets.xcassets */; };
+		FD11E6251DDC2C120010DCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD11E6231DDC2C120010DCEA /* LaunchScreen.storyboard */; };
+		FD11E6311DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E62E1DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.m */; };
+		FD11E6321DDC2C340010DCEA /* GHDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E6301DDC2C340010DCEA /* GHDataBaseManager.m */; };
+		FD11E63C1DDC2C550010DCEA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FD11E63B1DDC2C550010DCEA /* libsqlite3.tbd */; };
+		FD11E63F1DDC2C710010DCEA /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11E63E1DDC2C710010DCEA /* TestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD11E6121DDC2C120010DCEA /* GHDB_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHDB_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD11E6161DDC2C120010DCEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD11E6181DDC2C120010DCEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD11E6191DDC2C120010DCEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD11E61B1DDC2C120010DCEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD11E61C1DDC2C120010DCEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD11E61F1DDC2C120010DCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD11E6211DDC2C120010DCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD11E6241DDC2C120010DCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD11E6261DDC2C120010DCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD11E62D1DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHDataBaseManager+OperationToolsMethod.h"; sourceTree = "<group>"; };
+		FD11E62E1DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHDataBaseManager+OperationToolsMethod.m"; sourceTree = "<group>"; };
+		FD11E62F1DDC2C340010DCEA /* GHDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDataBaseManager.h; sourceTree = "<group>"; };
+		FD11E6301DDC2C340010DCEA /* GHDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDataBaseManager.m; sourceTree = "<group>"; };
+		FD11E63B1DDC2C550010DCEA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FD11E63D1DDC2C710010DCEA /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		FD11E63E1DDC2C710010DCEA /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD11E60F1DDC2C120010DCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11E63C1DDC2C550010DCEA /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD11E6091DDC2C120010DCEA = {
+			isa = PBXGroup;
+			children = (
+				FD11E6141DDC2C120010DCEA /* GHDB_Demo */,
+				FD11E6131DDC2C120010DCEA /* Products */,
+				FD11E63A1DDC2C550010DCEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD11E6131DDC2C120010DCEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD11E6121DDC2C120010DCEA /* GHDB_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD11E6141DDC2C120010DCEA /* GHDB_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD11E62C1DDC2C340010DCEA /* GHDB */,
+				FD11E6181DDC2C120010DCEA /* AppDelegate.h */,
+				FD11E6191DDC2C120010DCEA /* AppDelegate.m */,
+				FD11E61B1DDC2C120010DCEA /* ViewController.h */,
+				FD11E61C1DDC2C120010DCEA /* ViewController.m */,
+				FD11E63D1DDC2C710010DCEA /* TestModel.h */,
+				FD11E63E1DDC2C710010DCEA /* TestModel.m */,
+				FD11E61E1DDC2C120010DCEA /* Main.storyboard */,
+				FD11E6211DDC2C120010DCEA /* Assets.xcassets */,
+				FD11E6231DDC2C120010DCEA /* LaunchScreen.storyboard */,
+				FD11E6261DDC2C120010DCEA /* Info.plist */,
+				FD11E6151DDC2C120010DCEA /* Supporting Files */,
+			);
+			path = GHDB_Demo;
+			sourceTree = "<group>";
+		};
+		FD11E6151DDC2C120010DCEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD11E6161DDC2C120010DCEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD11E62C1DDC2C340010DCEA /* GHDB */ = {
+			isa = PBXGroup;
+			children = (
+				FD11E62D1DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.h */,
+				FD11E62E1DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.m */,
+				FD11E62F1DDC2C340010DCEA /* GHDataBaseManager.h */,
+				FD11E6301DDC2C340010DCEA /* GHDataBaseManager.m */,
+			);
+			path = GHDB;
+			sourceTree = "<group>";
+		};
+		FD11E63A1DDC2C550010DCEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD11E63B1DDC2C550010DCEA /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD11E6111DDC2C120010DCEA /* GHDB_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD11E6291DDC2C120010DCEA /* Build configuration list for PBXNativeTarget "GHDB_Demo" */;
+			buildPhases = (
+				FD11E60E1DDC2C120010DCEA /* Sources */,
+				FD11E60F1DDC2C120010DCEA /* Frameworks */,
+				FD11E6101DDC2C120010DCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHDB_Demo;
+			productName = GHDB_Demo;
+			productReference = FD11E6121DDC2C120010DCEA /* GHDB_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD11E60A1DDC2C120010DCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GaoHe;
+				TargetAttributes = {
+					FD11E6111DDC2C120010DCEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NKR84LHQ3Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD11E60D1DDC2C120010DCEA /* Build configuration list for PBXProject "GHDB_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD11E6091DDC2C120010DCEA;
+			productRefGroup = FD11E6131DDC2C120010DCEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD11E6111DDC2C120010DCEA /* GHDB_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD11E6101DDC2C120010DCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11E6251DDC2C120010DCEA /* LaunchScreen.storyboard in Resources */,
+				FD11E6221DDC2C120010DCEA /* Assets.xcassets in Resources */,
+				FD11E6201DDC2C120010DCEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD11E60E1DDC2C120010DCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD11E6321DDC2C340010DCEA /* GHDataBaseManager.m in Sources */,
+				FD11E6311DDC2C340010DCEA /* GHDataBaseManager+OperationToolsMethod.m in Sources */,
+				FD11E61D1DDC2C120010DCEA /* ViewController.m in Sources */,
+				FD11E63F1DDC2C710010DCEA /* TestModel.m in Sources */,
+				FD11E61A1DDC2C120010DCEA /* AppDelegate.m in Sources */,
+				FD11E6171DDC2C120010DCEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD11E61E1DDC2C120010DCEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD11E61F1DDC2C120010DCEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD11E6231DDC2C120010DCEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD11E6241DDC2C120010DCEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD11E6271DDC2C120010DCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD11E6281DDC2C120010DCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD11E62A1DDC2C120010DCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKR84LHQ3Q;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = GHDB_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.geminigaohe.tingshu.GHDB-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD11E62B1DDC2C120010DCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKR84LHQ3Q;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = GHDB_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.geminigaohe.tingshu.GHDB-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD11E60D1DDC2C120010DCEA /* Build configuration list for PBXProject "GHDB_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11E6271DDC2C120010DCEA /* Debug */,
+				FD11E6281DDC2C120010DCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD11E6291DDC2C120010DCEA /* Build configuration list for PBXNativeTarget "GHDB_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD11E62A1DDC2C120010DCEA /* Debug */,
+				FD11E62B1DDC2C120010DCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD11E60A1DDC2C120010DCEA /* Project object */;
+}
