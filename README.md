@@ -27,7 +27,7 @@ GHDB对于sqlite3的封装与其他类对于数据库的封装不同，**其中�
 ```
 
 
-##GHdataBaseManager Property
+##GHDataBaseManager Property
 > * 返回数据库单例属性
 > * @property (nonatomic, assign) sqlite3 *db; 
 
